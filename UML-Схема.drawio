@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-22T17:54:32.761Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 OPR/91.0.4516.72 (Edition Yx GX)" etag="_XX4d4vh9x8sWQ0R-EOY" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-23T17:37:41.444Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 OPR/91.0.4516.72 (Edition Yx GX)" etag="IonGMpnPiwcmwYV55DaP" version="20.5.1" type="github">
   <diagram id="JtSHPyrtu1UMF8-l7VgB" name="Страница 1">
     <mxGraphModel dx="1061" dy="625" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,11 +85,14 @@
         <mxCell id="tx780-OEI2Yw4T-puAla-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=block;endFill=0;" parent="1" source="yKAVHZmEkNLangEVGs3E-15" target="yKAVHZmEkNLangEVGs3E-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="d-rsdmdRp6qAWdg2u8yf-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yKAVHZmEkNLangEVGs3E-15" target="d-rsdmdRp6qAWdg2u8yf-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="yKAVHZmEkNLangEVGs3E-15" value="Авторизованный пользователь" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="390" y="540" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yKAVHZmEkNLangEVGs3E-20" value="Запись на экскурсию" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="520" y="440" width="140" height="70" as="geometry" />
+          <mxGeometry x="498" y="442" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yKAVHZmEkNLangEVGs3E-22" value="Просмотр истории музея" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="320" width="140" height="70" as="geometry" />
@@ -103,7 +106,7 @@
         <mxCell id="tx780-OEI2Yw4T-puAla-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="yKAVHZmEkNLangEVGs3E-24" target="yKAVHZmEkNLangEVGs3E-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ENAa6lbubcTBVYNkkeok-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yKAVHZmEkNLangEVGs3E-24" target="ENAa6lbubcTBVYNkkeok-4">
+        <mxCell id="ENAa6lbubcTBVYNkkeok-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="yKAVHZmEkNLangEVGs3E-24" target="ENAa6lbubcTBVYNkkeok-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yKAVHZmEkNLangEVGs3E-24" value="Работник музея" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
@@ -120,10 +123,10 @@
             <mxPoint x="-13" y="11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ENAa6lbubcTBVYNkkeok-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="yKAVHZmEkNLangEVGs3E-29" target="ENAa6lbubcTBVYNkkeok-1">
+        <mxCell id="ENAa6lbubcTBVYNkkeok-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="yKAVHZmEkNLangEVGs3E-29" target="ENAa6lbubcTBVYNkkeok-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ENAa6lbubcTBVYNkkeok-3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ENAa6lbubcTBVYNkkeok-2">
+        <mxCell id="ENAa6lbubcTBVYNkkeok-3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ENAa6lbubcTBVYNkkeok-2" vertex="1" connectable="0">
           <mxGeometry x="0.3198" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -132,13 +135,16 @@
           <mxGeometry x="490" y="650" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yKAVHZmEkNLangEVGs3E-30" value="Создание экскурсий" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="678" y="501" width="140" height="70" as="geometry" />
+          <mxGeometry x="720" y="568" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ENAa6lbubcTBVYNkkeok-1" value="Редактирование экскурсий" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ENAa6lbubcTBVYNkkeok-1" value="Редактирование экскурсий" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="647" y="784" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ENAa6lbubcTBVYNkkeok-4" value="Редактирование истории музея" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ENAa6lbubcTBVYNkkeok-4" value="Редактирование истории музея" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="161" y="759" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d-rsdmdRp6qAWdg2u8yf-1" value="Отказ от записи на экскурсию" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="607" y="502" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
