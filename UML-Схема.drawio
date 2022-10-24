@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-23T17:37:41.444Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 OPR/91.0.4516.72 (Edition Yx GX)" etag="IonGMpnPiwcmwYV55DaP" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-24T11:41:50.725Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 OPR/91.0.4516.95 (Edition Yx GX)" etag="OgS_HtdA0ykxAWdLGRIV" version="20.5.1" type="github">
   <diagram id="JtSHPyrtu1UMF8-l7VgB" name="Страница 1">
     <mxGraphModel dx="1061" dy="625" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -77,7 +77,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tx780-OEI2Yw4T-puAla-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="yKAVHZmEkNLangEVGs3E-15" target="yKAVHZmEkNLangEVGs3E-20" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="568" y="549" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="tx780-OEI2Yw4T-puAla-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="yKAVHZmEkNLangEVGs3E-15" target="yKAVHZmEkNLangEVGs3E-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -85,8 +89,13 @@
         <mxCell id="tx780-OEI2Yw4T-puAla-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=block;endFill=0;" parent="1" source="yKAVHZmEkNLangEVGs3E-15" target="yKAVHZmEkNLangEVGs3E-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d-rsdmdRp6qAWdg2u8yf-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yKAVHZmEkNLangEVGs3E-15" target="d-rsdmdRp6qAWdg2u8yf-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="d-rsdmdRp6qAWdg2u8yf-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="yKAVHZmEkNLangEVGs3E-15" target="d-rsdmdRp6qAWdg2u8yf-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="568" y="548" />
+              <mxPoint x="568" y="536" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="yKAVHZmEkNLangEVGs3E-15" value="Авторизованный пользователь" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="390" y="540" width="30" height="60" as="geometry" />
@@ -115,14 +124,6 @@
         <mxCell id="yKAVHZmEkNLangEVGs3E-27" value="Просмотр списков работников музея" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="590" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yKAVHZmEkNLangEVGs3E-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;" parent="1" source="yKAVHZmEkNLangEVGs3E-29" target="yKAVHZmEkNLangEVGs3E-30" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="QOjP1Mu_IZP7iEiMJHM_-1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;" parent="yKAVHZmEkNLangEVGs3E-31" vertex="1" connectable="0">
-          <mxGeometry x="-0.3007" y="-4" relative="1" as="geometry">
-            <mxPoint x="-13" y="11" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ENAa6lbubcTBVYNkkeok-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="yKAVHZmEkNLangEVGs3E-29" target="ENAa6lbubcTBVYNkkeok-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -131,20 +132,35 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="8BzlJCEhzE2OdnfqPXrK-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" target="yKAVHZmEkNLangEVGs3E-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="676" as="sourcePoint" />
+            <mxPoint x="747" y="671" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="747" y="676" />
+              <mxPoint x="747" y="671" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8BzlJCEhzE2OdnfqPXrK-2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8BzlJCEhzE2OdnfqPXrK-1">
+          <mxGeometry x="0.1967" y="1" relative="1" as="geometry">
+            <mxPoint x="-22" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="yKAVHZmEkNLangEVGs3E-29" value="Работа с экскурсиями" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="650" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yKAVHZmEkNLangEVGs3E-30" value="Создание экскурсий" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="720" y="568" width="140" height="70" as="geometry" />
+          <mxGeometry x="778" y="635" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ENAa6lbubcTBVYNkkeok-1" value="Редактирование экскурсий" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="647" y="784" width="140" height="70" as="geometry" />
+          <mxGeometry x="709" y="762" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ENAa6lbubcTBVYNkkeok-4" value="Редактирование истории музея" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="161" y="759" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="d-rsdmdRp6qAWdg2u8yf-1" value="Отказ от записи на экскурсию" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="607" y="502" width="140" height="70" as="geometry" />
+        <mxCell id="d-rsdmdRp6qAWdg2u8yf-1" value="Отказ от записи на экскурсию" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="632" y="501" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
