@@ -12,3 +12,4 @@ for row in scripts.split(';'):
         connection.commit()
     except sqlite3.Error as error:
         print(error)
+        connection.rollback()
