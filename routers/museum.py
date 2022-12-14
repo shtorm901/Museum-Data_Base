@@ -1,7 +1,8 @@
 from fastapi import APIRouter
+from fastapi import FastAPI
 
 visitor_router = APIRouter()
-
+app = FastAPI()
 
 @visitor_router.get('/')
 def get_museum():

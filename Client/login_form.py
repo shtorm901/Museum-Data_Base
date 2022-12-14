@@ -25,3 +25,6 @@ class Main(tk.Tk):
         btn_enter.grid(row=3, column=1)
         btn_close.grid(row=3, column=1)
         btn_close.grid(row=3, column=2)
+
+main = Main()
+main.mainloop()
