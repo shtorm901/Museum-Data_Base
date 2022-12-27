@@ -1,4 +1,4 @@
-import os.path
+import os
 import sqlite3
 
 def Base_check(file_path: str) -> bool:
