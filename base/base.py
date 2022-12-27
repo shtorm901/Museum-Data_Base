@@ -1,15 +1,20 @@
+import os.path
 import sqlite3
 
-connection = sqlite3.connect('museum.db')
-cur = connection.cursor()
+def Base_check(file_path: str) -> bool:
+    return os.path.exists(file_path)
 
-with open("../sql/base.sql", 'r') as sql_file:
-    scripts = sql_file.read()
+def Base_create(file_path: str, sql_file: str) -> None:
+        connection = sqlite3.connect(file_path)
+        cur = connection.cursor()
 
-for row in scripts.split(';'):
-    try:
-        cur.execute(row)
-        connection.commit()
-    except sqlite3.Error as error:
-        print(error)
-        connection.rollback()
+        with open(sql_file, 'r') as sql_file:
+            scripts = sql_file.read()
+
+        for row in scripts.split(';'):
+            try:
+                cur.execute(row)
+                connection.commit()
+            except sqlite3.Error as error:
+                print(error)
+                connection.rollback()
