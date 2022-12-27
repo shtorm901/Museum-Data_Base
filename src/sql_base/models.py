@@ -14,30 +14,30 @@ class Hall(BaseModel):
     title_hall: str
     floor: int
 
-class excursion(BaseModel):
+class Excursion(BaseModel):
     excursion_id: Optional[int]
     floor: int
     exhibition_id: Optional[int]
     workers_id: Optional[int]
     info_id: Optional[int]
 
-class exhibition_exhibits(BaseModel):
+class Exhibition_exhibits(BaseModel):
     exhibit_id: Optional[int]
     hall_id: Optional[int]
     title_exhibits: str
     date_of_discovery: Optional[datetime]
 
-class information_about_the_excursion(BaseModel):
+class Information_about_the_excursion(BaseModel):
     info_id: Optional[int]
     user_id: Optional[int]
     workers_id: Optional[int]
     number_of_people: int
 
-class post(BaseModel):
+class Post(BaseModel):
     post_id: Optional[int]
     post: str
 
-class user(BaseModel):
+class User(BaseModel):
     user_id: Optional[int]
     user_name: str
     user_password: str
