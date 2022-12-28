@@ -24,7 +24,7 @@ class Excursion(BaseModel):
 class Exhibition_exhibits(BaseModel):
     exhibit_id: Optional[int]
     hall_id: Optional[int]
-    title_exhibits: str
+    title_exhibit: str
     date_of_discovery: Optional[datetime]
 
 class Information_about_the_excursion(BaseModel):

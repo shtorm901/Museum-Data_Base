@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85047b0e-4243-4058-a67d-e3927b42a121" name="Changes" comment="Обновление файлов">
+    <list default="true" id="85047b0e-4243-4058-a67d-e3927b42a121" name="Changes" comment="добавлены роутеры post, workers, excursion,hall">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/museum.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resolvers/workers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routers/workers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routers/excursion.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/routers/excursion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routers/hall.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/routers/hall.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routers/post.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/routers/post.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routers/worker.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/routers/worker.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sql_base/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/sql_base/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sql_base/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/sql_base/base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sql_base/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/sql_base/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +122,7 @@
       <workItem from="1672206378777" duration="2483000" />
       <workItem from="1672220873186" duration="3483000" />
       <workItem from="1672224769135" duration="797000" />
-      <workItem from="1672225749742" duration="5285000" />
+      <workItem from="1672225749742" duration="8890000" />
     </task>
     <task id="LOCAL-00001" summary="Обновлены скрипты создания и заполнения базы данных">
       <created>1666972636176</created>
@@ -223,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672181295138</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="добавлены роутеры post, workers, excursion,hall">
+      <created>1672231168326</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1672231168326</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +251,8 @@
     <MESSAGE value="Обновлен." />
     <MESSAGE value="Создание функций создания и проверки базы данных" />
     <MESSAGE value="Обновление файлов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Обновление файлов" />
+    <MESSAGE value="добавлены роутеры post, workers, excursion,hall" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлены роутеры post, workers, excursion,hall" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Museum_Data_Base$base.coverage" NAME="base Coverage Results" MODIFIED="1672171617967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/sql_base" />
