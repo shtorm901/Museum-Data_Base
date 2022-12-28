@@ -15,7 +15,6 @@ def new_post(post: Post):
     return f'{{code: 201, id: {new_id}}}'
 
 
-
 @post_router.get('/{post_id}')
 def get_post(post_id: int):
     post = resolvers.get_post(post_id)

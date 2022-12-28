@@ -1,5 +1,5 @@
 import tkinter as tk
-import tkinter.messagebox
+from api.resolvers import check_login
 
 
 class Main(tk.Tk):
@@ -26,5 +26,9 @@ class Main(tk.Tk):
         btn_close.grid(row=3, column=1)
         btn_close.grid(row=3, column=2)
 
-main = Main()
-main.mainloop()
+    def open(self):
+        self.grab_set()
+        self.wait_window()
+        post = check_login(login=self.username.get(),
+                           password=self.userpassword.get())
+        return post
