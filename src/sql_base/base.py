@@ -2,7 +2,6 @@ import os
 import sqlite3
 
 class BaseWorker:
-
     def set_base_path(self, base_path:str):
         self.base_path = base_path
     def Base_check(self) -> bool:
@@ -21,6 +20,7 @@ class BaseWorker:
                     print(error)
                 finally:
                     connection.close()
+
     def execute(self, query: str, args: tuple[str], many: bool):
         connection = sqlite3.connect(self.base_path, isolation_level=None)
         cur = connection.cursor()
@@ -31,6 +31,14 @@ class BaseWorker:
             res = res_ctx.fetchall()
         else:
             res = res_ctx.fetchone()
+        connection.commit()
+        connection.close()
+        return res
+
+    def insert_data(self, query: str, args: tuple[str]):
+        connection = sqlite3.connect(self.base_path, isolation_level=None)
+        cur = connection.cursor()
+        res = cur.execute(query, args).fetchall()
         connection.commit()
         connection.close()
         return res

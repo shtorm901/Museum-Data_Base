@@ -17,7 +17,7 @@ class Hall(BaseModel):
 class Excursion(BaseModel):
     excursion_id: Optional[int]
     floor: int
-    exhibition_id: Optional[int]
+    exhibit_id: Optional[int]
     workers_id: Optional[int]
     info_id: Optional[int]
 
