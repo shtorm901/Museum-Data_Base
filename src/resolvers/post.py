@@ -8,7 +8,3 @@ def new_post(post: models.Post) -> int:
                                     "RETURNING post_id ",
                                      (post.post, ))
     return new_id
-def del_post(post_id: int) -> dict:
-    del_id = base_worker.execute(query='DELETE FROM post WHERE post_id =?',
-                               args=(post_id, ))
-    return del_id
