@@ -1,38 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85047b0e-4243-4058-a67d-e3927b42a121" name="Changes" comment="!">
-      <change beforePath="$PROJECT_DIR$/.idea/Museum-Data_Base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Museum-Data_Base.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/api/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/api/resolvers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/login_form.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/museum.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resolvers/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resolvers/excursion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resolvers/exhibition_exhibits.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resolvers/hall.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resolvers/information_about_the_excursion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resolvers/post.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resolvers/user.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resolvers/worker.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routers/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routers/excursion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routers/exhibition_exhibits.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routers/hall.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routers/information_about_the_excursion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routers/post.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routers/user.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routers/worker.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sql_base/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sql_base/base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sql_base/models.py" beforeDir="false" />
-    </list>
+    <list default="true" id="85047b0e-4243-4058-a67d-e3927b42a121" name="Changes" comment="!!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,7 +112,7 @@
       <workItem from="1672225749742" duration="9228000" />
       <workItem from="1672253400130" duration="1939000" />
       <workItem from="1674573036199" duration="1925000" />
-      <workItem from="1674747424713" duration="6160000" />
+      <workItem from="1674747424713" duration="6308000" />
     </task>
     <task id="LOCAL-00001" summary="Обновлены скрипты создания и заполнения базы данных">
       <created>1666972636176</created>
@@ -271,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672255347936</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="!!">
+      <created>1674753792702</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1674753792702</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +272,8 @@
     <MESSAGE value="добавлены роутеры post, workers, excursion,hall" />
     <MESSAGE value="добавлены роутеры и возможность создавать/удалять записи" />
     <MESSAGE value="!" />
-    <option name="LAST_COMMIT_MESSAGE" value="!" />
+    <MESSAGE value="!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="!!" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Museum_Data_Base$base.coverage" NAME="base Coverage Results" MODIFIED="1674749319512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/sql_base" />
