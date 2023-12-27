@@ -52,3 +52,6 @@ CREATE TABLE IF NOT EXISTS information_about_the_excursion(
     FOREIGN KEY (user_id) REFERENCES user(user_id),
     FOREIGN KEY (workers_id) REFERENCES workers(workers_id)
 );
+
+INSERT INTO User(user_name, user_password)
+VALUES('admin', 'pass')

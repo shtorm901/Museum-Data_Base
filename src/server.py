@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from sql_base import base_worker
-from settings import Base
+from settings import Base, Script_Fill_Base
 from routers.post import post_router
 from routers.worker import work_router
 from routers.hall import hall_router
@@ -8,7 +8,9 @@ from routers.excursion import exc_router
 from routers.exhibition_exhibits import exhib_router
 from routers.information_about_the_excursion import info_router
 from routers.user import user_router
+import uvicorn
 
+app = FastAPI()
 
 base_worker.set_base_path(Base)
 
@@ -17,7 +19,7 @@ if not base_worker.Base_check():
     base_worker.Base_create('../sql/base.sql')
 
 
-app = FastAPI()
+
 
 @app.get("/")
 def main_page():
